@@ -21,11 +21,11 @@
     </p>
     <p>
         <label>Фамилия:<br></label>
-        <input name="last_name" type="text" required pattern="/^[a-zA-Zа-яА-Я'][a-zA-Zа-яА-Я-' ]+[a-zA-Zа-яА-Я']?$/u">
+        <input name="last_name" type="text" required >
     </p>
     <p>
         <label>Имя:<br></label>
-        <input name="first_name" type="text" required pattern="/^[a-zA-Zа-яА-Я'][a-zA-Zа-яА-Я-' ]+[a-zA-Zа-яА-Я']?$/u">
+        <input name="first_name" type="text" required>
     </p>
     <p>
         <label>Возраст:<br></label>

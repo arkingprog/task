@@ -66,6 +66,7 @@ try {
 } catch (PDOException $e) {
     echo($e->getMessage());
 }
+header("Location: ./index.php");
 
 // если такого нет, то сохраняем данные
 //$result2 = mysql_query("INSERT INTO users (login,password) VALUES('$login','$password')");
