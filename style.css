@@ -1,0 +1,10 @@
+.container{
+    width: 500px;
+    margin: 0 auto;
+}
+form,input{
+    width: 100%;
+}
+h2{
+    text-align: center;
+}
